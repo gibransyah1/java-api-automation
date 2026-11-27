@@ -1,9 +1,7 @@
 package api.tests;
 
 import api.endpoints.MahasiswaEndPoints;
-import api.endpoints.UserEndpoints;
 import api.models.MahasiswaRequest;
-import api.models.UserRequest;
 import api.utils.ExcelUtils;
 import api.utils.JsonUtils;
 import io.qameta.allure.Description;
@@ -19,7 +17,7 @@ import static org.hamcrest.Matchers.*;
 
 @Epic("API Testing Framework")
 @Feature("User Management Service")
-public class UserTestWithPom {
+public class UserWithPomTest {
 
     // DataProvider membaca file JSON
     @DataProvider(name = "jsonUserData")
